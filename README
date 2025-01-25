@@ -1,0 +1,18 @@
+# Tema 2 - SCD - 2024
+### Gorin Natalia Stefania - 343C2
+
+## API
+Serverul web este implementat in limbajul Python, folosind Flask. Implementarea rutelor se face in fisierul `src\app.py`. 
+In radacina proiectului sunt implementate si docker-compose-ul si Dockerfile-ul necesare pentru a rula serverul in container. 
+Pentru a rula serverul se ruleaza comanda `docker-compose up --build` in radacina proiectului. 
+
+## BAZA DE DATE
+Am ales sa folosesc o baza de date MongoDB. Aceasta ruleaza pe portul 27017. Pentru generarea bazei de date am folosit un script de JavaScript care se aflta in 'scripts\init.js'.
+
+## UTILITARUL DE GESTIUNE A BAZEI DE DATE
+Utilitarul pe care il folosesc este mongo-express. Acesta ruleaza pe portul 8081.
+Credentialele de conectare sunt:
+- username: admin
+- password: pass
+
+

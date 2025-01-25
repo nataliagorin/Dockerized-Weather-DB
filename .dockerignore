@@ -1,0 +1,22 @@
+# Ignoră directoarele de cache și dependințe
+__pycache__/
+node_modules/
+
+# Ignoră fișierele de log
+*.log
+
+# Ignoră fișierele sensibile
+*.env
+
+# Ignoră fișierele generate de IDE-uri
+.vscode/
+.idea/
+*.iml
+
+# Ignoră fișierele Docker temporare
+Dockerfile.*
+docker-compose.override.yml
+
+# Ignoră alte foldere sau fișiere temporare
+*.tmp
+*.bak
